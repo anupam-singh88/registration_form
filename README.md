@@ -17,7 +17,7 @@ This project is a registration form with JavaScript validations using HTML and C
 2. Open the `index.html` file in your browser.
 3. Fill out the form and click submit.
 
-##URL
+## URL
 https://anupam-singh88.github.io/registration_form/
 
 
