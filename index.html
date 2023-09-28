@@ -38,8 +38,8 @@
                     </div>
                     <div>
                         <label for="uEmail"><strong>Email</strong></label> <br>
-                        <input type="email" name="uEmail" id="uEmail" placeholder="Enter Email" onkeyup="checkVal()"
-                            class="inpField">
+                        <input type="email" name="uEmail" id="uEmail" placeholder="Enter Email"
+                            onkeyup="validateEmail()" class="inpField">
                         <i class="fa-regular fa-circle-xmark wrongchk" style="color: #e01a1a;"></i>
                         <i class="fa-regular fa-circle-check fa-beat-fade checkbox" style="color: #42cf26;"></i>
                     </div>
@@ -52,10 +52,18 @@
                     </div>
                     <div>
                         <label for="password"><strong>Password</strong></label> <br>
-                        <input type="password" name="password" id="password" onkeyup="checkVal()"
+                        <input type="password" name="password" id="password" onkeyup="validatePass()"
                             placeholder="Enter Password" class="inpField">
+
                         <i class="fa-regular fa-circle-xmark wrongchk" style="color: #e01a1a;"></i>
                         <i class="fa-regular fa-circle-check fa-beat-fade checkbox" style="color: #42cf26;"></i>
+                        <!-- <div class="input-group-append"> -->
+                        <span class="input-group-text" onclick="password_show_hide();">
+                            <i class="fas fa-eye" id="show_eye"></i>
+                            <i class="fas fa-eye-slash d-none" id="hide_eye"></i>
+                        </span>
+                        <!-- </div> -->
+
                     </div>
                     <div>
                         <label for="cPassword"><strong>Confirm Password</strong></label> <br>

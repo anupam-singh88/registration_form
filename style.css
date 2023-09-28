@@ -103,3 +103,14 @@ body {
         width: 100%;
     }
 }
+
+.d-none {
+    display: none;
+}
+
+.input-group-text {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 8px;
+    font-size: 10px;
+}
